@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webpage</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 40px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            background-color: #ffffff;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(49, 124, 102);
+        }
+
+        p {
+            margin-top: 20px;
+            text-align: justify;
+        }
+
+        img {
+            margin: 0px auto;
+            max-width: 100%;
+            border-radius: 12px;
+        }
+
+        a,button {
+            margin: auto;
+            padding: 10px 15px;
+            background-color: #277f78;
+            color: white;
+            font-size: 18px;
+            border: none;
+            text-decoration: none;
+            border-radius: 20px;
+            text-align: center
+        }
+
+        a:hover,button:hover {
+            background-color: #1a575d;
+        }
+
+        hr {
+            height: 2px;
+            background-color: rgba(0,0,0,0.5);;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+        <h1>HEADER 1</h1>
+
+        <hr>
+        <h2>HEADER 2</h2>
+
+        <hr>
+        <p>Paragraph. This is a long sentence which is long and has redundant use of words just to make the paragraph longer 
+        by using more words than needed. The high word count of this paragraph is just to increase the 
+        already high word count of the sentence so that it can be displayed as a long paragraph.</p>
+        <hr>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg/960px-View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg" alt="Image of Mt.Fuji">
+        <hr>
+        <a href="https://www.google.com/" target="_blank">Link To GOOGLE</a>
+        <hr>
+        <button onclick="showAlert()">Click Me for Alert</button>
+        <script>
+        function showAlert() 
+        {
+            alert("Alert button pressed!");
+        }
+        </script>
+    </body>
+    </html>
